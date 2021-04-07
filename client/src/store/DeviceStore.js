@@ -27,10 +27,31 @@ export default class DeviceStore {
         this._brands = [
             {id: 1, name: 'Sumsung'},
             {id: 2, name: 'Apple'},
+            {id: 3, name: 'Lenovo'},
+            {id: 4, name: 'Asus'},
+            
         ]
 
         this._devices = [
+            {
+                id: 1, name: 'Sumsung', price: 5000, rating: 50, 
+                img: 'https://www.ixbt.com/mobile/images/samsung-galaxy-s8-plus/foto/sgs8-0043.jpeg'
+            },
+            
+            {
+                id: 2, name: 'Apple', price: 50100, rating: 56, 
+                img: 'https://www.ixbt.com/mobile/images/samsung-galaxy-s8-plus/foto/sgs8-0043.jpeg'
+            },
 
+            {
+                id: 3, name: 'Lenovo', price: 50100, rating: 56, 
+                img: 'https://www.ixbt.com/mobile/images/samsung-galaxy-s8-plus/foto/sgs8-0043.jpeg'
+            },
+
+            {
+                id: 4, name: 'Asus', price: 50100, rating: 56, 
+                img: 'https://www.ixbt.com/mobile/images/samsung-galaxy-s8-plus/foto/sgs8-0043.jpeg'
+            }
         ]
         
         this._selectedType = {

@@ -20,7 +20,6 @@ const TypeBar = observer(() => {
                     style={{cursor: 'pointer'}}
                     active={type.id === device.selectedType.id}
                     onClick={() => device.setSelectedType(type)}
-                    //onClick={() => console.log(type)}
                     key={type.id}
                 >
                     {type.name}
